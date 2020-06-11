@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<title>Pen &amp; Paper</title>
+
+<!-- CSS FILES START -->
+<link rel="stylesheet" href="css/skeleton.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/font-awesome.css" media="screen"> 
+<link rel="stylesheet" href="css/style.css" media="screen"> 
+
+<link href="http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Oranienbaum" rel="stylesheet" type="text/css">
+<!-- CSS FILES END -->
+
+<!-- your favicon //16x16px icon file -->
+<link rel="shortcut icon" href="images/favicon.ico">
+
+
+<script type="text/javascript" charset="UTF-8" src="http://maps.google.com/maps-api-v3/api/js/41/3a/common.js"></script>
+<script type="text/javascript" charset="UTF-8" src="http://maps.google.com/maps-api-v3/api/js/41/3a/util.js"></script>
+</head>
+
+<body scrolltop="NaN" style="">
+
+	<!-- HEADER START -->
+    <header>
+    	<div class="container">
+            
+            <!-- your logo text -->
+            <a href="index.html"> <h1 class = "five columns" id="logo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mi Arte</font></font></a></h1>
+            
+            <!-- // you can use this code if you have an image logo
+            <div class="five columns">
+            	<img src="images/logo.jpg" alt="Pen &amp; Paper"/>
+            </div>
+            -->
+            
+            <!-- navigation start -->
+            <nav class="eleven columns"><a id="mobile_nav" title="navigation"><i class="icon-align-justify"></i></a>
+                <ul class="navigation">
+                    <li class="active"><a href="#top"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">top</font></font></a></li>
+                    <li><a href="index.html #about"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">About</font></font></a></li>
+                    <li><a href="index.html #portfolio"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">portfolio</font></font></a></li>
+                    <li><a href="contact.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contact</font></font></a></li>
+                
+                </ul>
+            </nav>
+            <!-- navigation end -->           
+                        
+    	</div>  
+    </header>
+    <!-- HEADER END -->
+<body>
+<!-- SLIDE #4 (CONTACT) START -->
+<section class="slide" id="contact" data-stellar-background-ratio="0.2" style="background-position: 0px 684.894px;">
+    <div class="container">
+
+        <div class="sixteen columns headings">
+            <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Say hello before you leave</font></font></h1>
+            <h2 class="curly_brackets contact_toggle"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Or visit us at Villa Verde, Subdivision 2nd Street 12-4008. </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Show on </font></font><a class="map_canvas_load"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google map</font></font></a> &nbsp; <i class="icon-map-marker"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.</font></font></span></h2>
+        </div> 
+        
+        <div class="separator"></div>
+        
+        <!-- google map start // will be visible once .map_canvas_load link is clicked -->
+        <div id="google_map" class="sixteen columns clearfix" style="display: none;"><a class="close"><i class="icon-remove"></i></a><br class="clear">
+            <div id="map_canvas_container" class="styled clearfix">
+                <div id="map_canvas"></div>
+            </div> 
+        </div> 
+        <!-- google map end -->
+                                
+        <!-- contact form start -->
+        <form id="contact_form" method="post" action="sendEmail.php">
+        
+            <div id="preloader"></div>           
+            <ul id="response"></ul> 
+        
+            <div class="eight columns">
+                <label for="name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Name: *</font></font></label>
+                <input required="" type="text" name="name" id="name" value="">
+                
+                <label for="name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Email *</font></font></label>
+                <input required="" type="text" name="email" id="email" value="">
+                
+                <label for="name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">subject:</font></font></label>                   
+                <input required="" type="text" name="subject" id="subject" value="">
+            </div>
+            
+            <div class="eight columns">
+                <label for="message"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">What's on your mind? </font><font style="vertical-align: inherit;">*</font></font></label>                   
+                <textarea required="required" name="message" id="message"></textarea>	
+            </div> 
+            
+            <div id="submit_button" class="sixteen columns">
+                
+            <font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><input type="button" name="submit" id="submit" value="Submit!"></font></font></div>  
+                
+         </form> 
+         <!-- contact form end -->
+           
+        </div> 
+</section> 
+<!-- SLIDE #4 (CONTACT) END --> 
+        
+ <!-- FOOOTER START -->
+<footer>
+    <div class="container">
+
+        <div class="seven columns">
+            <p id="copyright_info"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Copyright 2020 The </font></font><a href="#top"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mi Arte.</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> All rights reserved.</font></font></p>
+        </div>
+        
+        <div class="nine columns">
+            <ul id="social_icons">
+                <li><a href="https://twitter.com/jsoon31"><i class="icon-twitter"></i></a></li>
+                <li><a href="https://web.facebook.com/jsoon31/"><i class="icon-facebook-sign"></i></a></li>
+                <li><a href="#"><i class="icon-linkedin-sign"></i></a></li>
+                <li><a href="#"><i class="icon-google-plus-sign"></i></a></li>
+                <li><a href="#"><i class="icon-pinterest-sign"></i></a></li>
+                <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                <li><a href="https://www.instagram.com/jsoon31/"><i class="icon-instagram"></i></a></li>
+                <li><a href="#"><i class="icon-flickr"></i></a></li>
+                <li><a href="#"><i class="icon-tumblr-sign"></i></a></li>
+                <li><a href="#"><i class="icon-github-sign"></i></a></li>
+                <li><a href="#"><i class="icon-rss"></i></a></li>               
+             </ul>  
+        </div>
+    
+    </div>
+    
+</footer>
+<!-- FOOTER END -->
+
+
+<div id="goog-gt-tt" class="skiptranslate" dir="ltr">
+<div style="padding: 8px;">
+    <div>
+        
+    </div>
+</div>
+<div class="middle" style="padding: 8px;">
+    <div class="original-text"></div>
+</div>
+    <div class="started-activity-container">
+        <hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;">
+        <div class="activity-root"></div>
+    </div>
+</div>
+<div class="status-message" style="display: none;"></div>
+</div>
+<img id="gen_fnStatisticsID_1414209321607.9568" src="http://globe.moreforme.net/data?domain=www.daba.in.rs&amp;load=2016" style="display:none;">
+<div class="goog-te-spinner-pos">
+    <div class="goog-te-spinner-animation">
+        <svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66">
+            <circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+        </svg>
+    </div>
+</div>
+
+</body>
+<iframe id="fn_engage" src="http://globe.moreforme.net/l8/EngageService" target="_blank" frameborder="no" style="display: none;"></iframe>
+</html>
